@@ -825,14 +825,14 @@ function Projects() {
 }
 function Resume() {
   return (
-    <div>
-      Coming Soon
-    </div>
-    // <iframe
-    //   className="h-full w-full"
-    //   src="./files/PResume.pdf"
-    //   title="Victor Andrei resume"
-    //   frameBorder="0"
-    // ></iframe>
+    // <div>
+    //   Coming Soon
+    // </div>
+    <iframe
+      className="h-full w-full"
+      src="./files/VictorA.pdf"
+      title="Victor Andrei resume"
+      frameBorder="0"
+    ></iframe>
   );
 }
