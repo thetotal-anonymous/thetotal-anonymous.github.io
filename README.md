@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Software Engineer</h3>
 	
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=smart92coder&color=blueviolet&style=flat">
+  <img src="https://komarev.com/ghpvc/?username=smart92dev&color=blueviolet&style=flat">
 </p>
 
 - 🌱 I’m currently learning about **Project Manager**

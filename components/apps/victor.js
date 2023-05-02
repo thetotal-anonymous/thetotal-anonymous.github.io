@@ -254,9 +254,7 @@ function About() {
           several database structures.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Reliable team player offering exceptional analytical and time
-          management skills and the important ability to think critically and
-          solve complex problems.
+          Great team player, effective communicator with strong knowledge
         </li>
         <li className=" list-pc my-2 md:text-base">
           Love 3C - Create, Challenge, Collaborate
@@ -273,33 +271,31 @@ function History() {
           Frontend Developer,{" "}
           <a
             className="border-b-2"
-            href="https://www.cycura.com"
+            href="https://updivision.com/"
             target="_blank"
             rel="noreferrer"
           >
-            CYCURA
+            UPDIVISION
           </a>
         </p>
       ),
       date: "Apr 2017 - Sep 2019",
-      link: "https://www.cycura.com",
+      link: "https://updivision.com/",
       description: [
         <p>
-          Contributed to the in-house UI library to create reusable components that saved 125+ hours of development per month.
+          Build responsive user interfaces with pixel perfect accuracy and fast speed.
           (skills: react.js, Next.js, firebase)
         </p>,
         <p>
-          Improved customer conversion rate by 17% through A/B testing of different components and combinations,
-          representing $500,000+ in incremental annual revenue. (skills: react.js,
+          Write clean, commented code with React, Vue, Next, Nuxt. (skills: react.js,
           typescript, python, git)
         </p>,
         <p>
-          Constructed the logic for a streamlined ad-serving platform that scaled to our 3M users,
-          which improved the page speed by 15% after implementation. (skills: next.js,
-          node.js, python, chatGPT)
+          Optimize apps for modularity and speed with various hooks like useCallback, useMemo, dynamic import and virtualization using React ^16.8 (skills: next.js,
+          node.js, python)
         </p>,
         <p>
-          •	Tested software for bugs and operating speed, fixing bugs and documenting processes to increase efficiency by 18%.
+          Always research the best technical solutions and consult with the dev team to implement the best technical solutions.
           (skills: typescript, react.js, material-ui, firebase, node.js, express.js, serverless)
         </p>,
       ],
@@ -310,30 +306,25 @@ function History() {
           Blockchain Developer,{" "}
           <a
             className="border-b-2"
-            href="https://kuronuri.com"
+            href="https://webitfactory.io"
             target="_blank"
             rel="noreferrer"
           >
-            KURONURI
+            WEBITFACTORY
           </a>
         </p>
       ),
       date: "Oct 2019 - Mar 2022",
-      link: "https://kuronuri.com",
+      link: "https://webitfactory.io",
       description: [
         <p>
-          Created over 4 advanced products that integrated blockchain technology
-          with real-world industries, providing users with significant value and
-          benefits (React, solidity, web3, firebase)
+          Design, build and deploy dApps that run on Ethereum and Solana blockchain using Solidity, Web3, webGL and Moralis (React, solidity, web3, firebase, webGL, Moralis)
         </p>,
         <p>
-          Lead a team of 5 developers in designing intuitive interfaces and
-          implemented MLM system that resulted in a 30% increase in user retention and 20% increase in referrals.
+          Build Crypto Data Aggregators for crypto currencies and blockchains with different business objectives.
         </p>,
         <p>
-          Integrated 5 P2E games based on blockchain technology and successfully created a Metaverse
-          platform that has gained widespread user appeal (Solidity, Web3, Unity3D, firebase, React, Typescript, python,
-          GhatGPT, Git, Ether.js, node.js, WebGL, thridweb SDK, Moralis, Serverless).
+          Lead a team of Frontend, Backend and Smart Contract developers based on the concept of “Let’s grow together”
         </p>,
       ],
     },
@@ -343,31 +334,22 @@ function History() {
           FullStack Developer,{" "}
           <a
             className="border-b-2"
-            href="https://www.openagent.com.au/"
+            href="https://www.infrasoft.at"
             target="_blank"
             rel="noreferrer"
           >
-            OpenAgent
+            INFRASOFT
           </a>
         </p>
       ),
       date: "May 2022",
-      link: "https://www.openagent.com.au/",
+      link: "https://www.infrasoft.at",
       description: [
         <p>
-          Contributed to the simplification of the home selling process, which
-          can be a source of stress for many people, resulting in significant
-          value-addition to users in their home selling journey.
+          Improved the website’s user interface and optimized its speed, resulting in a 35% speed improvement and a 20% increase in user engagement
         </p>,
         <p>
-          Improved the website's user interface and optimized its speed,
-          resulting in a 35% speed improvement and a 20% increase in user
-          engagement.
-        </p>,
-        <p>
-          Collaborated with the data science team to develop algorithms that
-          matched over 80% of our platform's users with top-performing agents,
-          as a result, 25% increase in customer satisfaction.
+          Collaborated with the data science team to develop algorithms that matched over 80% of our platform’s users with top-performing agents, as a result, 25% increase in customer satisfaction
         </p>,
         <p>
           Be proud of contributing to this project and look forward to applying
@@ -458,7 +440,7 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              React, Next, Vue, Nuxt, Angular, Web3.js and Smart Contract, django, Java ...
+              React, Next, Vue, Nuxt, Angular, Web3.js and Smart Contract, django, Java, dotnet, dotnet core etc 
             </strong>{" "}
             development
           </div>
@@ -647,83 +629,166 @@ function Projects() {
   const project_list = [
     {
       name: "Flexible Frontend",
-      date: "Dec 2018 - Apr 2020",
-      link: "https://iqoption.com/en",
-      imgUrl: "./images/projects/iqoption.webp",
+      link: "#",
+      imgUrl: "./images/projects/Screenshot_4.png",
       description: [
         <p>
-          Led development team of 5 to create Github pages, allowing customer repositories to be hosted directly
+          Build this comprehensive tourism platform using PHP for back-end and HTML, CSS, JS for frontend
         </p>,
         <p>
-          Implemented AWS to allow easy iteration in company cloud infrastructure
+          Introduced external search engine for tourism called "Amadeus" and the data about the users, 
+          corporate clients and individual clients are managed by a web service connected to the ERP.
         </p>,
         <p>Worked with PM/IM to keep on track with the project plan, timeline and billing</p>,
         <p>Led bi-weekly stand-up to ensure team worked effectively, using coaching strategies to increase efficiency by 10%</p>,
         <p>Worked with Quality Assurance to get new pages/products tested, and addressed any issues within 48 hours</p>,
       ],
       domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "graphQL"
+        "HTML",
+        "Javascript",
+        "Laravel",
+        "Git",
       ],
     },
     {
-      name: "DEX Ecosystem",
-      date: "May 2020 - Jan 2021",
-      imgUrl: "./images/projects/emirate.webp",
-      link: "https://emirateswap.com",
+      name: "Flexible Frontend",
+      imgUrl: "./images/projects/Screenshot_5.png",
+      link: "#",
       description: [
-        <p>Proficient in Dexdevelopment, including design, coding, testing, and debugging of applications and systems</p>,
+        <p>Lentz’en Chalet is a cabin situated in Luxembourg.</p>,
         <p>
-          Strong understanding of smart contracts and their role in Dex development
+          Its owners needed a website to promote it and encourage tourism to the cabin and they asked us to build it.
         </p>,
         <p>
-          Strong communication skills and ability to work collaboratively with cross-functional teams
+          We developed the presentation site to feel just like the Chalet – warm, friendly and welcoming.
         </p>,
+        <p>
+          Plus, an online integrated booking sysytem built from scratch.
+        </p>
+      ],
+      domains: [
+        "UI/UX design",
+        "Graphic design",
+        "Laravel",
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Git",
+      ],
+    },
+    {
+      name: "Flexible Frontend",
+      link: "#",
+      imgUrl: "./images/projects/Screenshot_6.png",
+      description: [
+        <p>
+          Created a new site to match the gorgeous setting of Tamarind Springs and wrote SEO optimized content to match the new look of the brand. 
+        </p>,
+        <p>
+          Built a booking tool on the site, so that visitors could make their reservations as easy as possible.
+        </p>,
+        <p>
+           Built this website using Joomla for back-end and HTML, CSS, JavaScript for the front-end.
+        </p>
+      ],
+      domains: [
+        "React.js",
+        "Joomla",
+        "SCSS",
+        "Git",
+      ],
+    },
+    {
+      name: "Flexible Frontend",
+      link: "#",
+      imgUrl: "./images/projects/Screenshot_7.png",
+      description: [
+        <p>
+          Food Service website made Next.js
+        </p>,
+        <p>
+          Built a booking system on the site for customer-friendly service.
+        </p>,
+        <p>
+          Use modern technologies like Gatsby.js, Next.js and deployed AWS.
+        </p>
       ],
       domains: [
         "Next.js",
-        "typescript",
-        "scss",
-        "firebase",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
+        "Gatsby.js",
+        "AWS",
+        "express",
+        "Git",
+        "Bootstrap",
       ],
     },
     {
-      name: "SHIBUYA Ecosystem",
-      date: "Dec 2021 - Apr 2022",
-      link: "https://difines.io",
-      imgUrl: "./images/projects/shibuya.webp",
+      name: "Blockchain Development",
+      link: "#",
+      imgUrl: "./images/projects/Screenshot_9.png",
       description: [
         <p>
-          Has <span className="font-medium">special mechanism</span> called{" "}
-          <span className="font-medium">Golden Tree</span> that can make the
-          token price <span className="font-medium">never go down</span>, and{" "}
-          <span className="font-medium">rise day by day</span>
+          This is a 'Fit2Earn' ecosystem that aims to revolutionize sports & fitntess through blockchain development. 
         </p>,
         <p>
-          Designed that <span className="font-medium">SMTC token</span> that is
-          the main token of Golden Tree that has the special mechanism will be{" "}
-          <span className="font-medium">over 100K BUSD</span> finally
+          Sense4FIT App, a Fit2Earn app build on the Elrond blockchain with NFT based access
         </p>,
-        <p>Has 7 ladder system</p>,
-        <p>has many rewards system</p>,
-        <p>has referral function</p>,
-        <p>has team manage feature as being a boss of the team</p>,
+        <p>
+          Integration with hardward, fitness apps and Maiar
+        </p>,
+        <p>
+          NFT infrastructure consulting & Tokenomics
+        </p>,
+        <p>
+          Smart contract & staking and Vesting platform, 10K NFT collection sold out in just 7 mins, Over 40K followers across social media
+        </p>
       ],
       domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "defi",
-        "binance smart chain",
+        "Fit2Earn",
+        "Web3.js",
+        "ether.js",
+        "Elrond Network",
+        "ERC721",
+      ],
+    },
+    {
+      name: "Blockchain Development",
+      imgUrl: "./images/projects/emirate.webp",
+      link: "#",
+      description: [
+        <p>Dex platform from Pancakeswap</p>,
+        <p>
+          Forked Pancakeswap and extend functionality
+        </p>,
+        <p>
+          Strong understanding of smart contract and their role in Dex development
+        </p>,
+        <p>
+          Implement farming, staking, swap and betting with various tokens
+        </p>
+      ],
+      domains: [
+        "Next.js", "typescript", "scss", "firebase", "web3.js", "solidity", "hardhat", "tailwindcss"
+      ],
+    },
+    {
+      name: "Fullstack Development",
+      imgUrl: "./images/projects/Screenshot_10.png",
+      link: "#",
+      description: [
+        <p>Real Estate Site & powerful google map search</p>,
+        <p>
+          Integrated Chart.js into React project for Google Map Customizing
+        </p>,
+        <p>
+          Using kafka, redis, elasticsearch to improve performance
+        </p>,
+        <p>
+          Collaborate with marketing team, engineering team for user friendly UI and SEO friendly Backend.
+        </p>
+      ],
+      domains: [
+        "React.js", "typescript", "scss", "Kafka", "elasticsearch", "redis", "chart.js", "MySQL", "Express", "MongoDB"
       ],
     },
   ];
@@ -773,7 +838,6 @@ function Projects() {
           <div className="w-full flex flex-col gap-2 py-3 px-3 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 ">
             <a
               className="w-full cursor-pointer"
-              target="_blank"
               href={project.link}
               rel="noreferrer"
             >
@@ -790,9 +854,9 @@ function Projects() {
                     {project.name}
                   </div>
                 </div>
-                <div className="text-gray-300 font-light text-sm">
-                  {project.date}
-                </div>
+                {/* <div className="text-gray-300 font-light text-sm">
+                  {project.date }
+                </div> */}
               </div>
               <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
                 {project.description.map((desc, index) => (
@@ -825,9 +889,6 @@ function Projects() {
 }
 function Resume() {
   return (
-    // <div>
-    //   Coming Soon
-    // </div>
     <iframe
       className="h-full w-full"
       src="./files/VictorA.pdf"

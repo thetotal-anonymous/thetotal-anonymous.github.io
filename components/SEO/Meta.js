@@ -19,7 +19,7 @@ export default function Meta() {
       <meta
         name="keywords"
         content="EmeraldDev92, Victor's portfolio, blockchain, engineer, web, smart contract engineer
-        , smart contract, solidity, react, web3.js, EmeraldDev92 linux, ubuntu portfolio, smart92coder,
+        , smart contract, solidity, react, web3.js, EmeraldDev92 linux, ubuntu portfolio, smart92dev,
         Victor Andrei protfolio, Victor Andrei computer, Victor Andrei, Victor ubuntu, Victor Andrei ubuntu portfolio"
       />
       <meta name="robots" content="index, follow" />

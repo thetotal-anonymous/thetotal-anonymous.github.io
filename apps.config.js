@@ -1,4 +1,3 @@
-import displayDifines from "./components/apps/difines";
 import displayPartner from "./components/apps/partner";
 import displayChat from './components/apps/chat';
 import displayVsCode from "./components/apps/vscode";
@@ -46,15 +45,6 @@ const apps = [
     favourite: true,
     desktop_shortcut: true,
     screen: displayVsCode,
-  },
-  {
-    id: "difines",
-    title: "SHIBUYA Ecosystem",
-    icon: "./themes/Andrei/apps/shibuya.png",
-    disabled: false,
-    favourite: true,
-    desktop_shortcut: true,
-    screen: displayDifines,
   },
   {
     id: "chatfi",

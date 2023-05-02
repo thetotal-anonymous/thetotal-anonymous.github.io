@@ -11,7 +11,7 @@ function DefaultMenu(props) {
     >
       <a
         rel="noreferrer noopener"
-        href="https://github.com/smart92coder/smart92coder"
+        href="https://github.com/smart92dev/smart92dev"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -20,7 +20,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/smart92coder/smart92coder/issues"
+        href="https://github.com/smart92dev/smart92dev/issues"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -41,7 +41,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/smart92coder"
+        href="https://github.com/smart92dev"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -52,7 +52,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="mailto:smart92coder@gmail.com"
+        href="mailto:emeralddev92@gmail.com"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
