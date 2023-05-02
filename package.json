@@ -2,7 +2,7 @@
   "name": "Victor-Andrei-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://DiamondDev92/DiamondDev92.github.io",
+  "homepage": "https://smart92dev/smart92dev.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

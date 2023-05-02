@@ -36,7 +36,7 @@ export default function Meta() {
       />
       <meta
         itemProp="description"
-        content="Victor Andrei's (DiamondDev92) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
+        content="Victor Andrei's (smart92dev) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
       <meta itemProp="image" content="images/logos/VictorAndrei.png" />
       /* Twitter */
@@ -47,10 +47,10 @@ export default function Meta() {
       />
       <meta
         name="twitter:description"
-        content="Victor Andrei's (DiamondDev92) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
+        content="Victor Andrei's (smart92dev) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta name="twitter:site" content="DiamondDev92" />
-      <meta name="twitter:creator" content="DiamondDev92" />
+      <meta name="twitter:site" content="smart92dev" />
+      <meta name="twitter:creator" content="smart92dev" />
       <meta name="twitter:image:src" content="images/logos/VictorAndrei.png" />
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
@@ -59,10 +59,10 @@ export default function Meta() {
       />
       <meta
         name="og:description"
-        content="Victor Andrei's (DiamondDev92) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
+        content="Victor Andrei's (smart92dev) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
       <meta name="og:image" content="images/logos/VictorAndrei.png" />
-      <meta name="og:url" content="http://DiamondDev92.github.io/" />
+      <meta name="og:url" content="http://smart92dev.github.io/" />
       <meta name="og:site_name" content="Victor Andrei Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />

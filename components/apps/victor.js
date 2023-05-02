@@ -778,13 +778,13 @@ function Projects() {
       description: [
         <p>Real Estate Site & powerful google map search</p>,
         <p>
-          Integrated Chart.js into React project for Google Map Customizing
+          Integrated Chart.js into React project Graphical process
         </p>,
         <p>
           Using kafka, redis, elasticsearch to improve performance
         </p>,
         <p>
-          Collaborate with marketing team, engineering team for user friendly UI and SEO friendly Backend.
+          Collaborate with marketing team, engineering team for user & SEO friendly UI and fast Backend
         </p>
       ],
       domains: [

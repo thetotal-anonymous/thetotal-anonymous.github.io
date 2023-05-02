@@ -64,7 +64,7 @@ function BootingScreen(props) {
         </a>
         <span className="font-bold mx-1">|</span>
         <a
-          href="https://github.com/DiamondDev92"
+          href="https://github.com/smart92dev"
           rel="noreferrer noopener"
           target="_blank"
           className="underline"
