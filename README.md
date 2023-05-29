@@ -55,7 +55,7 @@
 
 <p>
 <!-- <a href="https://www.smart92dev.com"><img src="https://img.shields.io/badge/-adityavsingh.com-3423A6?style=for-the-badge&logo=Google-Chrome&logoColor=white"/></a> -->
-<a href="https://linkedin.com/in/smart92dev"><img src="https://img.shields.io/badge/-smart92dev-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/kamin-gregor-18118b278/"><img src="https://img.shields.io/badge/-smart92dev-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:emeralddev92@gmail.com"><img src="https://img.shields.io/badge/-emeralddev92@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://twitter.com/smart92dev"><img src="https://img.shields.io/badge/-@smart92dev-1877F2?style=flat&logo=Twitter&logoColor=white"/></a>
 </p>
