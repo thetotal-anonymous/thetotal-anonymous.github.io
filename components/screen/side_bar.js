@@ -75,7 +75,7 @@ export function AllApps(props) {
           width="28px"
           height="28px"
           className="w-7"
-          src="./themes/Andrei/system/view-app-grid-symbolic.svg"
+          src="./themes/Gregor/system/view-app-grid-symbolic.svg"
           alt="Ubuntu view app"
         />
         <div

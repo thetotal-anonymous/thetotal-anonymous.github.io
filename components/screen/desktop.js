@@ -42,7 +42,7 @@ export class Desktop extends Component {
     this.setContextListeners();
     this.setEventListeners();
     this.checkForNewFolders();
-    this.openApp("about-Victor");
+    this.openApp("about-Kamin");
   }
 
   componentWillUnmount() {
@@ -59,7 +59,7 @@ export class Desktop extends Component {
         apps.push({
           id: `new-folder-${folder.id}`,
           title: folder.name,
-          icon: "./themes/Andrei/system/folder.png",
+          icon: "./themes/Gregor/system/folder.png",
           disabled: true,
           favourite: false,
           desktop_shortcut: true,
@@ -482,7 +482,7 @@ export class Desktop extends Component {
     apps.push({
       id: `new-folder-${folder_id}`,
       title: folder_name,
-      icon: "./themes/Andrei/system/folder.png",
+      icon: "./themes/Gregor/system/folder.png",
       disabled: true,
       favourite: false,
       desktop_shortcut: true,

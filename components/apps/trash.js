@@ -15,12 +15,12 @@ export class Trash extends Component {
             },
             {
                 name: "node_modules",
-                icon: "./themes/Andrei/system/folder.png"
+                icon: "./themes/Gregor/system/folder.png"
             },
 
             {
                 name: "abandoned project",
-                icon: "./themes/Andrei/system/folder.png"
+                icon: "./themes/Gregor/system/folder.png"
             },
             {
                 name: "18BCP127 assignment name.zip",
@@ -28,11 +28,11 @@ export class Trash extends Component {
             },
             {
                 name: "project final",
-                icon: "./themes/Andrei/system/folder.png"
+                icon: "./themes/Gregor/system/folder.png"
             },
             {
                 name: "project ultra-final",
-                icon: "./themes/Andrei/system/folder.png"
+                icon: "./themes/Gregor/system/folder.png"
             },
 
         ];
@@ -64,7 +64,7 @@ export class Trash extends Component {
     emptyScreen = () => {
         return (
             <div className="flex-grow flex flex-col justify-center items-center">
-                <img className=" w-24" src="./themes/Andrei/status/user-trash-symbolic.svg" alt="Ubuntu Trash" />
+                <img className=" w-24" src="./themes/Gregor/status/user-trash-symbolic.svg" alt="Ubuntu Trash" />
                 <span className="font-bold mt-4 text-xl px-1 text-gray-400">Trash is Empty</span>
             </div>
         );

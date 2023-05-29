@@ -19,7 +19,7 @@ function BootingScreen(props) {
         width="400px"
         height="400px"
         className="md:w-1/4 w-1/2"
-        src="./themes/Andrei/status/cof_orange_hex.svg"
+        src="./themes/Gregor/status/cof_orange_hex.svg"
         alt="Ubuntu Logo"
       />
       <div
@@ -32,7 +32,7 @@ function BootingScreen(props) {
               width="32px"
               height="32px"
               className="w-8"
-              src="./themes/Andrei/status/power-button.svg"
+              src="./themes/Gregor/status/power-button.svg"
               alt="Power Button"
             />
           </div>
@@ -41,7 +41,7 @@ function BootingScreen(props) {
             width="40px"
             height="40px"
             className={" w-10 " + (props.visible ? " animate-spin " : "")}
-            src="./themes/Andrei/status/process-working-symbolic.svg"
+            src="./themes/Gregor/status/process-working-symbolic.svg"
             alt="Ubuntu Process Symbol"
           />
         )}
@@ -50,13 +50,13 @@ function BootingScreen(props) {
         width="200px"
         height="100px"
         className="md:w-1/5 w-1/2"
-        src="./themes/Andrei/status/ubuntu_white_hex.svg"
+        src="./themes/Gregor/status/ubuntu_white_hex.svg"
         alt="Ubuntu Name"
       />
       <div className="text-white mb-4">
         <a
           className="underline"
-          // href="https://www.linkedin.com/in/Victor-Andrei-193b9325b/"
+          // href="https://www.linkedin.com/in/Kamin-Gregor-193b9325b/"
           rel="noreferrer noopener"
           target="_blank"
         >

@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Victor Andrei</h1>
+<h1 align="center">Hi 👋, I'm Kamin Gregor</h1>
 <h3 align="center">A passionate Software Engineer</h3>
 	
 <p align="center">

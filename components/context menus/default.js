@@ -30,7 +30,7 @@ function DefaultMenu(props) {
       <Devider />
       <a
         rel="noreferrer noopener"
-        // href="https://www.linkedin.com/in/Victor-Andrei-193b9325b/"
+        // href="https://www.linkedin.com/in/Kamin-Gregor-193b9325b/"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >

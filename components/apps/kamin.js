@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutVictor extends Component {
+export class AboutKamin extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -66,8 +66,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Victor Andrei"
-            src="./themes/Andrei/status/about.svg"
+            alt="Kamin Gregor"
+            src="./themes/Gregor/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
         </div>
@@ -84,8 +84,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Victor Andrei"
-            src="./themes/Andrei/status/work-history.svg"
+            alt="Kamin Gregor"
+            src="./themes/Gregor/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
         </div>
@@ -102,8 +102,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Victor's education"
-            src="./themes/Andrei/status/education.svg"
+            alt="Kamin's education"
+            src="./themes/Gregor/status/education.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
         </div>
@@ -120,8 +120,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Victor' skills"
-            src="./themes/Andrei/status/skills.svg"
+            alt="Kamin' skills"
+            src="./themes/Gregor/status/skills.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
         </div>
@@ -138,8 +138,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Victor' projects"
-            src="./themes/Andrei/status/projects.svg"
+            alt="Kamin' projects"
+            src="./themes/Gregor/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
         </div>
@@ -156,8 +156,8 @@ export class AboutVictor extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="victor's resume"
-            src="./themes/Andrei/status/download.svg"
+            alt="kamin's resume"
+            src="./themes/Gregor/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
         </div>
@@ -200,10 +200,10 @@ export class AboutVictor extends Component {
   }
 }
 
-export default AboutVictor;
+export default AboutKamin;
 
-export const displayAboutVictor = () => {
-  return <AboutVictor />;
+export const displayAboutKamin = () => {
+  return <AboutKamin />;
 };
 
 function About() {
@@ -212,13 +212,13 @@ function About() {
       <div className="w-20 md:w-32 mt-4 bg-white rounded-full">
         <img
           className="w-full rounded-full"
-          src="./images/logos/VictorAndrei.png"
-          alt="Victor Andrei Logo"
+          src="./images/logos/KaminGregor.png"
+          alt="Kamin Gregor Logo"
         />
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Victor Andrei</span> ,
+          My name is <span className="font-bold">Kamin Gregor</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -463,56 +463,56 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="Victor javascript"
+              alt="Kamin javascript"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Typescript-3178c6?style=flat&logo=typescript&logoColor=ffffff"
-              alt="Victor typescript"
+              alt="Kamin typescript"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Solidity-ffffff?style=flat&logo=solidity&logoColor=000000&labelColor=%000000"
-              alt="Victor solidity"
+              alt="Kamin solidity"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="Victor c++"
+              alt="Kamin c++"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="Victor python"
+              alt="Kamin python"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Java-5676AB?style=flat&logo=Spring&logoColor=white"
-              alt="Victor Java"
+              alt="Kamin Java"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Rust-5676AB?style=flat&logo=Rust&logoColor=green"
-              alt="Victor Rust"
+              alt="Kamin Rust"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="Victor dart"
+              alt="Kamin dart"
             />
             <img
               src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="Victor SASS"
+              alt="Kamin SASS"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="Victor git"
+              alt="Kamin git"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="Victor firebase"
+              alt="Kamin firebase"
               className="m-1"
             />
           </div>
@@ -522,97 +522,97 @@ function Skills() {
             <img
               className=" m-1"
               src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"
-              alt="Victor next"
+              alt="Kamin next"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="Victor react"
+              alt="Kamin react"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Angular-dd0031?style=flat&logo=angular&logoColor=ffffff"
-              alt="Victor angular"
+              alt="Kamin angular"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Django-bb5523?style=flat&logo=django&logoColor=green"
-              alt="Victor django"
+              alt="Kamin django"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Spring-dd0031?style=flat&logo=spring&logoColor=ffffff"
-              alt="Victor JavaSpring"
+              alt="Kamin JavaSpring"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Dotnet-555555?style=flat&logo=dotnet&logoColor=22bb22"
-              alt="Victor dotnet"
+              alt="Kamin dotnet"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Golang-777722?style=flat&logo=go&logoColor=22bb22"
-              alt="Victor golang"
+              alt="Kamin golang"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Svelte-ff3e00?style=flat&logo=svelte&logoColor=ffffff"
-              alt="Victor svelte"
+              alt="Kamin svelte"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Remix-00ccbb?style=flat&logo=remix&logoColor=000000"
-              alt="Victor remix"
+              alt="Kamin remix"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Web3JS-f16822?style=flat&logo=Web3.js&logoColor=ffffff"
-              alt="Victor web3"
+              alt="Kamin web3"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Hardhat-c5d11700?style=flat&logo=ethereum&logoColor=ffffff"
-              alt="Victor hardhat"
+              alt="Kamin hardhat"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/React Native-61DAFB?style=flat&logo=react&logoColor=white"
-              alt="Victor react native"
+              alt="Kamin react native"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Ionic-3880ff?style=flat&logo=ionic&logoColor=white"
-              alt="Victor ionic framework"
+              alt="Kamin ionic framework"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="Victor flutter"
+              alt="Kamin flutter"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
-              alt="Victor tailwind css"
+              alt="Kamin tailwind css"
             />
             <img
               src="https://img.shields.io/badge/-NodeJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Victor node.js"
+              alt="Kamin node.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-ExpressJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Victor express.js"
+              alt="Kamin express.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="Victor jquery"
+              alt="Kamin jquery"
               className="m-1"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="Victor redux"
+              alt="Kamin redux"
             />
           </div>
         </div>
@@ -891,8 +891,8 @@ function Resume() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/VictorA.pdf"
-      title="Victor Andrei resume"
+      src="./files/KaminG.pdf"
+      title="Kamin Gregor resume"
       frameBorder="0"
     ></iframe>
   );
