@@ -271,32 +271,34 @@ function History() {
           Frontend Developer,{" "}
           <a
             className="border-b-2"
-            href="https://updivision.com/"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
-            UPDIVISION
+            SMARTLS
           </a>
         </p>
       ),
       date: "Apr 2017 - Sep 2019",
-      link: "https://updivision.com/",
+      link: "",
       description: [
         <p>
-          Build responsive user interfaces with pixel perfect accuracy and fast speed.
-          (skills: react.js, Next.js, firebase)
+          Developed membership, event, and legal platform technology solutions, and automated internal processes
         </p>,
         <p>
-          Write clean, commented code with React, Vue, Next, Nuxt. (skills: react.js,
-          typescript, python, git)
+          Generated $50K+ in annual revenue as a system administrator of a large network of website.
         </p>,
         <p>
-          Optimize apps for modularity and speed with various hooks like useCallback, useMemo, dynamic import and virtualization using React ^16.8 (skills: next.js,
-          node.js, python)
+          Designed and implemented web applications along with 3rd-party software integrations as a web team liaison for all interdepartmental and customer-facing projects.
         </p>,
         <p>
-          Always research the best technical solutions and consult with the dev team to implement the best technical solutions.
-          (skills: typescript, react.js, material-ui, firebase, node.js, express.js, serverless)
+          Always research the best technical solutions and consult with the dev team to implement the best technical solutions
+        </p>,
+        <p>
+          Developed a node.js server to validate membership and track digital badges being used, saving the company $22.5K.
+        </p>,
+        <p>
+          Mentored 6 team members, enabling them to achieve professional growth and personal goals.
         </p>,
       ],
     },
@@ -306,16 +308,16 @@ function History() {
           Blockchain Developer,{" "}
           <a
             className="border-b-2"
-            href="https://webitfactory.io"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
-            WEBITFACTORY
+            BLOCKSTREAM
           </a>
         </p>
       ),
       date: "Oct 2019 - Mar 2022",
-      link: "https://webitfactory.io",
+      link: "",
       description: [
         <p>
           Design, build and deploy dApps that run on Ethereum and Solana blockchain using Solidity, Web3, webGL and Moralis (React, solidity, web3, firebase, webGL, Moralis)
@@ -326,6 +328,9 @@ function History() {
         <p>
           Lead a team of Frontend, Backend and Smart Contract developers based on the concept of “Let’s grow together”
         </p>,
+        <p>
+          Developed software that helped customers to simulate loans which increased the loans by 10%.
+        </p>,
       ],
     },
     {
@@ -334,16 +339,16 @@ function History() {
           FullStack Developer,{" "}
           <a
             className="border-b-2"
-            href="https://www.infrasoft.at"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
-            INFRASOFT
+            XLAB
           </a>
         </p>
       ),
       date: "May 2022",
-      link: "https://www.infrasoft.at",
+      link: "",
       description: [
         <p>
           Improved the website’s user interface and optimized its speed, resulting in a 35% speed improvement and a 20% increase in user engagement
@@ -352,8 +357,16 @@ function History() {
           Collaborated with the data science team to develop algorithms that matched over 80% of our platform’s users with top-performing agents, as a result, 25% increase in customer satisfaction
         </p>,
         <p>
-          Be proud of contributing to this project and look forward to applying
-          my knowledge and experience in my future career endeavors.
+          Simultaneously created & maintained scheduled jobs in SQL server for space maintenance and daily backups of system and user databases for 10 clients.
+        </p>,
+        <p>
+          Fine-tuned and developed AI/ML-based algorithms based on the results with Scikit-learn, increasing revenue 2-fold.
+        </p>,
+        <p>
+          Worked with Bitrix API, Bubble.io for no-coding agency with Stripe integration.
+        </p>,
+        <p>
+          Contributed to publishing BRC-20 tokens, the first token to use Ordinals protocol on bitcoin blockchain.
         </p>,
       ],
     },
@@ -411,10 +424,18 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Transilvania University of Brasov
+            University of Nova Gorica
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2012 - 2015, Faculty of Electrical Engineering and Computer Science</div>
-          <div className=" text-sm md:text-base">Bachelor of Engineering</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2011 - 2015, Faculty of Computer Engineering</div>
+          <div className=" text-sm md:text-base">Bachelor of Computer Engineering</div>
+          <div className=" text-sm md:text-base text:bold">CGPA &nbsp;&nbsp;&nbsp; 9.3/10</div>
+        </li>
+        <li className="list-disc">
+          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+            University of Ljubljana
+          </div>
+          <div className=" text-sm text-gray-400 mt-0.5">2014 - 2017, Faculty of Computer Science</div>
+          <div className=" text-sm md:text-base">Bachelor of Computer Science</div>
           <div className=" text-sm md:text-base text:bold">CGPA &nbsp;&nbsp;&nbsp; 9.2/10</div>
         </li>
       </ul>
@@ -440,7 +461,7 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              React, Next, Vue, Nuxt, Angular, Web3.js and Smart Contract, django, Java, dotnet, dotnet core etc 
+              React, Next, Vue, Nuxt, Angular, Web3.js and Smart Contract, django, Java, dotnet, dotnet core etc
             </strong>{" "}
             development
           </div>
@@ -636,7 +657,7 @@ function Projects() {
           Build this comprehensive tourism platform using PHP for back-end and HTML, CSS, JS for frontend
         </p>,
         <p>
-          Introduced external search engine for tourism called "Amadeus" and the data about the users, 
+          Introduced external search engine for tourism called "Amadeus" and the data about the users,
           corporate clients and individual clients are managed by a web service connected to the ERP.
         </p>,
         <p>Worked with PM/IM to keep on track with the project plan, timeline and billing</p>,
@@ -682,13 +703,13 @@ function Projects() {
       imgUrl: "./images/projects/Screenshot_6.png",
       description: [
         <p>
-          Created a new site to match the gorgeous setting of Tamarind Springs and wrote SEO optimized content to match the new look of the brand. 
+          Created a new site to match the gorgeous setting of Tamarind Springs and wrote SEO optimized content to match the new look of the brand.
         </p>,
         <p>
           Built a booking tool on the site, so that visitors could make their reservations as easy as possible.
         </p>,
         <p>
-           Built this website using Joomla for back-end and HTML, CSS, JavaScript for the front-end.
+          Built this website using Joomla for back-end and HTML, CSS, JavaScript for the front-end.
         </p>
       ],
       domains: [
@@ -728,7 +749,7 @@ function Projects() {
       imgUrl: "./images/projects/Screenshot_9.png",
       description: [
         <p>
-          This is a 'Fit2Earn' ecosystem that aims to revolutionize sports & fitntess through blockchain development. 
+          This is a 'Fit2Earn' ecosystem that aims to revolutionize sports & fitntess through blockchain development.
         </p>,
         <p>
           Sense4FIT App, a Fit2Earn app build on the Elrond blockchain with NFT based access
