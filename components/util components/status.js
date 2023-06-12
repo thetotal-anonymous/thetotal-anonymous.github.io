@@ -8,7 +8,7 @@ export default function Status() {
         <img
           width="16px"
           height="16px"
-          src="./themes/Gregor/status/network-wireless-signal-good-symbolic.svg"
+          src="./themes/Chandler/status/network-wireless-signal-good-symbolic.svg"
           alt="ubuntu wifi"
           className="inline status-symbol w-4 h-4"
         />
@@ -17,7 +17,7 @@ export default function Status() {
         <img
           width="16px"
           height="16px"
-          src="./themes/Gregor/status/audio-volume-medium-symbolic.svg"
+          src="./themes/Chandler/status/audio-volume-medium-symbolic.svg"
           alt="ubuntu sound"
           className="inline status-symbol w-4 h-4"
         />
@@ -26,7 +26,7 @@ export default function Status() {
         <img
           width="16px"
           height="16px"
-          src="./themes/Gregor/status/battery-good-symbolic.svg"
+          src="./themes/Chandler/status/battery-good-symbolic.svg"
           alt="ubuntu battry"
           className="inline status-symbol w-4 h-4"
         />
