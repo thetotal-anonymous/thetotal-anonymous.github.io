@@ -6,23 +6,23 @@ import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
-import { displayAboutRechard } from "./components/apps/rechard";
+import { displayAboutValery } from "./components/apps/valery";
 import { displayTerminalCalc } from "./components/apps/calc";
 
 const apps = [
   {
-    id: "about-Rechard",
-    title: "About Rechard",
-    icon: "./images/logos/RechardChandler.png",
+    id: "about-Valery",
+    title: "About Valery",
+    icon: "./images/logos/me.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
-    screen: displayAboutRechard,
+    screen: displayAboutValery,
   },
   {
     id: "chrome",
     title: "Google Chrome",
-    icon: "./themes/Chandler/apps/chrome.png",
+    icon: "./themes/system/apps/chrome.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
@@ -31,7 +31,7 @@ const apps = [
   {
     id: "calc",
     title: "Calc",
-    icon: "./themes/Chandler/apps/calc.png",
+    icon: "./themes/system/apps/calc.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: false,
@@ -40,7 +40,7 @@ const apps = [
   {
     id: "vscode",
     title: "Visual Studio Code",
-    icon: "./themes/Chandler/apps/vscode.png",
+    icon: "./themes/system/apps/vscode.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
@@ -49,7 +49,7 @@ const apps = [
   {
     id: "chatfi",
     title: "Chat Fi",
-    icon: "./themes/Chandler/apps/chat.jpeg",
+    icon: "./themes/system/apps/chat.jpeg",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
@@ -58,7 +58,7 @@ const apps = [
   {
     id: "partner",
     title: "Partner",
-    icon: "./themes/Chandler/apps/partner.png",
+    icon: "./themes/system/apps/partner.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
@@ -67,7 +67,7 @@ const apps = [
   {
     id: "terminal",
     title: "Terminal",
-    icon: "./themes/Chandler/apps/bash.png",
+    icon: "./themes/system/apps/bash.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: false,
@@ -77,7 +77,7 @@ const apps = [
   {
     id: "settings",
     title: "Settings",
-    icon: "./themes/Chandler/apps/gnome-control-center.png",
+    icon: "./themes/system/apps/gnome-control-center.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: false,
@@ -86,7 +86,7 @@ const apps = [
   {
     id: "gedit",
     title: "Contact Me",
-    icon: "./themes/Chandler/apps/gedit.png",
+    icon: "./themes/system/apps/gedit.png",
     disabled: false,
     favourite: false,
     desktop_shortcut: true,
@@ -95,7 +95,7 @@ const apps = [
   {
     id: "trash",
     title: "Trash",
-    icon: "./themes/Chandler/system/user-trash-full.png",
+    icon: "./themes/system/system/user-trash-full.png",
     disabled: false,
     favourite: false,
     desktop_shortcut: false,

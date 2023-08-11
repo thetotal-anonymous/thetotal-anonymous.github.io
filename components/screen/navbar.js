@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             "pl-3 pr-3 outline-none transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1 "
           }
         >
-          Rechard Chandler
+          Valery Olshevsky
         </div>
         <div
           tabIndex="0"

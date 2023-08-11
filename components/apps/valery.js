@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutRechard extends Component {
+export class AboutValery extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -66,8 +66,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Rechard Chandler"
-            src="./themes/Chandler/status/about.svg"
+            alt="Valery Olshevsky"
+            src="./themes/system/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
         </div>
@@ -84,8 +84,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Rechard Chandler"
-            src="./themes/Chandler/status/work-history.svg"
+            alt="Valery Olshevsky"
+            src="./themes/system/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
         </div>
@@ -102,8 +102,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Rechard's education"
-            src="./themes/Chandler/status/education.svg"
+            alt="Valery's education"
+            src="./themes/system/status/education.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
         </div>
@@ -120,8 +120,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Rechard' skills"
-            src="./themes/Chandler/status/skills.svg"
+            alt="Valery' skills"
+            src="./themes/system/status/skills.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
         </div>
@@ -138,8 +138,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Rechard' projects"
-            src="./themes/Chandler/status/projects.svg"
+            alt="Valery' projects"
+            src="./themes/system/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
         </div>
@@ -156,8 +156,8 @@ export class AboutRechard extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="rechard's resume"
-            src="./themes/Chandler/status/download.svg"
+            alt="valery's resume"
+            src="./themes/system/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
         </div>
@@ -200,10 +200,10 @@ export class AboutRechard extends Component {
   }
 }
 
-export default AboutRechard;
+export default AboutValery;
 
-export const displayAboutRechard = () => {
-  return <AboutRechard />;
+export const displayAboutValery = () => {
+  return <AboutValery />;
 };
 
 function About() {
@@ -212,13 +212,13 @@ function About() {
       <div className="w-20 md:w-32 mt-4 bg-white rounded-full">
         <img
           className="w-full rounded-full"
-          src="./images/logos/RechardChandler.png"
-          alt="Rechard Chandler Logo"
+          src="./images/logos/me.png"
+          alt="Valery Olshevsky Logo"
         />
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Rechard Chandler</span> ,
+          My name is <span className="font-bold">Valery Olshevsky</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -268,43 +268,6 @@ function History() {
     {
       name: (
         <p>
-          Frontend Developer,{" "}
-          <a
-            className="border-b-2"
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            UneeQ
-          </a>
-        </p>
-      ),
-      date: "Apr 2017 - Sep 2019",
-      link: "",
-      description: [
-        <p>
-          Developed membership, event, and legal platform technology solutions, and automated internal processes
-        </p>,
-        <p>
-          Generated $50K+ in annual revenue as a system administrator of a large network of website.
-        </p>,
-        <p>
-          Designed and implemented web applications along with 3rd-party software integrations as a web team liaison for all interdepartmental and customer-facing projects.
-        </p>,
-        <p>
-          Always research the best technical solutions and consult with the dev team to implement the best technical solutions
-        </p>,
-        <p>
-          Developed a node.js server to validate membership and track digital badges being used, saving the company $22.5K.
-        </p>,
-        <p>
-          Mentored 6 team members, enabling them to achieve professional growth and personal goals.
-        </p>,
-      ],
-    },
-    {
-      name: (
-        <p>
           Blockchain Developer,{" "}
           <a
             className="border-b-2"
@@ -312,24 +275,66 @@ function History() {
             target="_blank"
             rel="noreferrer"
           >
-            Clayming Space
+            Adoriasoft
           </a>
         </p>
       ),
-      date: "Oct 2019 - Mar 2022",
+      date: "Nov 2019 - Jul 2021",
       link: "",
       description: [
         <p>
-          Design, build and deploy dApps that run on Ethereum and Solana blockchain using Solidity, Web3, webGL and Moralis (React, solidity, web3, firebase, webGL, Moralis)
+          Build Celsis network, a peer to peer lending network and a one stop solution for all crypto assets enable
+          lending, borrowing and earning interest on deposited coins
         </p>,
         <p>
-          Build Crypto Data Aggregators for crypto currencies and blockchains with different business objectives.
+          Took part in making Aidonic, social fundraising and digital aid distribution technology for humanitarian
+          aid and development programs.
         </p>,
         <p>
-          Lead a team of Frontend, Backend and Smart Contract developers based on the concept of “Let’s grow together”
+          Designed and implemented web applications along with 3rd-party software integrations as a web team liaison for all interdepartmental and customer-facing projects.
         </p>,
         <p>
-          Developed software that helped customers to simulate loans which increased the loans by 10%.
+          Build NFT marketplace & P2E games, add token bridge functionality and contributed to Web3 projects.
+        </p>,
+        <p>
+          Lead a team of Frontend, Backend and Smart Contract developers based on the concept of “Let’s grow
+          together"
+        </p>,
+        <p>
+          Developed software that helped customers to simulate loans which increased the loans by 10%
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
+          Full Stack Developer,{" "}
+          <a
+            className="border-b-2"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            Chimplie
+          </a>
+        </p>
+      ),
+      date: "Jun 2019 - Feb 2022",
+      link: "",
+      description: [
+        <p>
+          Leaded the small agile team of 6 members while designed, developed and tested in-store order creation
+          and management app using HTML, CSS, React, Javascript that meets accessibility and web browser
+          standards for website.
+        </p>,
+        <p>
+          Applied ECMA Script 6 features to build JSX elements and functions in React components.
+        </p>,
+        <p>
+          Used React Hooks and Context API for effective state management in 60% of React projects.
+        </p>,
+        <p>
+          Focused on improving SEO, increased searching priority.
         </p>,
       ],
     },
@@ -343,7 +348,7 @@ function History() {
             target="_blank"
             rel="noreferrer"
           >
-            Converseon
+            C3 Deperiential
           </a>
         </p>
       ),
@@ -351,22 +356,21 @@ function History() {
       link: "",
       description: [
         <p>
-          Improved the website’s user interface and optimized its speed, resulting in a 35% speed improvement and a 20% increase in user engagement
+          Developed interactive learning game Rest APIs using Django, covering subjects like numbers relations,
+          puzzles, foundational meths, CS foundamentals and science foundations.
         </p>,
         <p>
-          Collaborated with the data science team to develop algorithms that matched over 80% of our platform’s users with top-performing agents, as a result, 25% increase in customer satisfaction
+          Oversaw the database design and management while managing deployment and required workflows.
         </p>,
         <p>
-          Simultaneously created & maintained scheduled jobs in SQL server for space maintenance and daily backups of system and user databases for 10 clients.
+          Coding, Compiling, Unit testing, Integration, packaging and deployment of developed software.
         </p>,
         <p>
-          Fine-tuned and developed AI/ML-based algorithms based on the results with Scikit-learn, increasing revenue 2-fold.
+          Collaborate to form firm view of quality metrics and expectations for the delivery, and work with these
+          throughout the sprint.
         </p>,
         <p>
-          Worked with Bitrix API, Bubble.io for no-coding agency with Stripe integration.
-        </p>,
-        <p>
-          Contributed to publishing BRC-20 tokens, the first token to use Ordinals protocol on bitcoin blockchain.
+          Work on POCs and cutting-edge features before they’re integrated into the product
         </p>,
       ],
     },
@@ -424,19 +428,11 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            North Shore International Academy
+            Taras Shevchenko University of Kyiv
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2011 - 2015, Faculty of Computer Engineering</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2016 - 2019, Computer Science</div>
           <div className=" text-sm md:text-base">Bachelor of Computer Science</div>
-          <div className=" text-sm md:text-base text:bold">GPA &nbsp;&nbsp;&nbsp; 7.6/8.0</div>
-        </li>
-        <li className="list-disc">
-          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Massey University
-          </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2014 - 2017, Faculty of Computer Science</div>
-          <div className=" text-sm md:text-base">Bachelor of Computer Engineering</div>
-          <div className=" text-sm md:text-base text:bold">GPA &nbsp;&nbsp;&nbsp; 7.5/8.0</div>
+          <div className=" text-sm md:text-base text:bold">GPA &nbsp;&nbsp;&nbsp; 3.7/4.0</div>
         </li>
       </ul>
     </>
@@ -484,56 +480,56 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="Rechard javascript"
+              alt="Valery javascript"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Typescript-3178c6?style=flat&logo=typescript&logoColor=ffffff"
-              alt="Rechard typescript"
+              alt="Valery typescript"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Solidity-ffffff?style=flat&logo=solidity&logoColor=000000&labelColor=%000000"
-              alt="Rechard solidity"
+              alt="Valery solidity"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="Rechard c++"
+              alt="Valery c++"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="Rechard python"
+              alt="Valery python"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Java-5676AB?style=flat&logo=Spring&logoColor=white"
-              alt="Rechard Java"
+              alt="Valery Java"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Rust-5676AB?style=flat&logo=Rust&logoColor=green"
-              alt="Rechard Rust"
+              alt="Valery Rust"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="Rechard dart"
+              alt="Valery dart"
             />
             <img
               src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="Rechard SASS"
+              alt="Valery SASS"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="Rechard git"
+              alt="Valery git"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="Rechard firebase"
+              alt="Valery firebase"
               className="m-1"
             />
           </div>
@@ -543,97 +539,97 @@ function Skills() {
             <img
               className=" m-1"
               src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"
-              alt="Rechard next"
+              alt="Valery next"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="Rechard react"
+              alt="Valery react"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Angular-dd0031?style=flat&logo=angular&logoColor=ffffff"
-              alt="Rechard angular"
+              alt="Valery angular"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Django-bb5523?style=flat&logo=django&logoColor=green"
-              alt="Rechard django"
+              alt="Valery django"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Spring-dd0031?style=flat&logo=spring&logoColor=ffffff"
-              alt="Rechard JavaSpring"
+              alt="Valery JavaSpring"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Dotnet-555555?style=flat&logo=dotnet&logoColor=22bb22"
-              alt="Rechard dotnet"
+              alt="Valery dotnet"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Golang-777722?style=flat&logo=go&logoColor=22bb22"
-              alt="Rechard golang"
+              alt="Valery golang"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Svelte-ff3e00?style=flat&logo=svelte&logoColor=ffffff"
-              alt="Rechard svelte"
+              alt="Valery svelte"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Remix-00ccbb?style=flat&logo=remix&logoColor=000000"
-              alt="Rechard remix"
+              alt="Valery remix"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Web3JS-f16822?style=flat&logo=Web3.js&logoColor=ffffff"
-              alt="Rechard web3"
+              alt="Valery web3"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Hardhat-c5d11700?style=flat&logo=ethereum&logoColor=ffffff"
-              alt="Rechard hardhat"
+              alt="Valery hardhat"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/React Native-61DAFB?style=flat&logo=react&logoColor=white"
-              alt="Rechard react native"
+              alt="Valery react native"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Ionic-3880ff?style=flat&logo=ionic&logoColor=white"
-              alt="Rechard ionic framework"
+              alt="Valery ionic framework"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="Rechard flutter"
+              alt="Valery flutter"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
-              alt="Rechard tailwind css"
+              alt="Valery tailwind css"
             />
             <img
               src="https://img.shields.io/badge/-NodeJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Rechard node.js"
+              alt="Valery node.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-ExpressJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Rechard express.js"
+              alt="Valery express.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="Rechard jquery"
+              alt="Valery jquery"
               className="m-1"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="Rechard redux"
+              alt="Valery redux"
             />
           </div>
         </div>
@@ -649,7 +645,7 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "Flexible Frontend",
+      name: "Full Stack Development",
       link: "#",
       imgUrl: "./images/projects/Screenshot_4.png",
       description: [
@@ -672,7 +668,7 @@ function Projects() {
       ],
     },
     {
-      name: "Flexible Frontend",
+      name: "Full Stack Development",
       imgUrl: "./images/projects/Screenshot_5.png",
       link: "#",
       description: [
@@ -698,7 +694,7 @@ function Projects() {
       ],
     },
     {
-      name: "Flexible Frontend",
+      name: "Full Stack Development",
       link: "#",
       imgUrl: "./images/projects/Screenshot_6.png",
       description: [
@@ -720,7 +716,7 @@ function Projects() {
       ],
     },
     {
-      name: "Flexible Frontend",
+      name: "Full Stack Development",
       link: "#",
       imgUrl: "./images/projects/Screenshot_7.png",
       description: [
@@ -741,6 +737,48 @@ function Projects() {
         "express",
         "Git",
         "Bootstrap",
+      ],
+    },
+    {
+      name: "Blockchain Development",
+      link: "https://www.cryptoblades.io/",
+      imgUrl: "./images/projects/project-29.png",
+      description: [
+        <p>
+          CryptoBlades Kingdoms will have its own 5000x5000 grid map, with different kinds 
+          of tiers of lands, where some will be randomly given to players, and others you 
+          can buy according to your gameplay strategy, and others you have to raid, and own 
+          that way.
+        </p>
+      ],
+      domains: [
+        "TailwindCSS",
+        "NextJS",
+        "MUI",
+        "Web3.js",
+        "ether.js",
+        "ERC721",
+        "NFT",
+      ],
+    },
+    {
+      name: "Game Development",
+      link: "https://www.solanashuffle.com/",
+      imgUrl: "./images/projects/project-20.webp",
+      description: [
+        <p>
+          Web3 Casino Game. It have Jackpot, Tower, Coin-Flip games Shuffle is a competitive 
+          PvP Jackpot game, where players place bets using NFTs or SOL to increase 
+          their chances of winning. 
+          Play. fire Hot rooms today.
+        </p>
+      ],
+      domains: [
+        "Go",
+        "React",
+        "TailwindCSS",
+        "Rust",
+        "Solana",
       ],
     },
     {
@@ -875,9 +913,6 @@ function Projects() {
                     {project.name}
                   </div>
                 </div>
-                {/* <div className="text-gray-300 font-light text-sm">
-                  {project.date }
-                </div> */}
               </div>
               <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
                 {project.description.map((desc, index) => (
@@ -913,7 +948,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/resume.pdf"
-      title="Rechard Chandler resume"
+      title="Valery Olshevsky resume"
       frameBorder="0"
     ></iframe>
   );
