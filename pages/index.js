@@ -6,7 +6,7 @@ const TRACKING_ID = process.env.NEXT_PUBLIC_TRACKING_ID;
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  return (
+  return ( 
     <>
       <Meta />
       <Ubuntu />
