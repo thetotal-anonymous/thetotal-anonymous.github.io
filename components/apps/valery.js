@@ -268,6 +268,35 @@ function History() {
     {
       name: (
         <p>
+          Frontend Developer,{" "}
+          <a
+            className="border-b-2"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            Brainbean Apps
+          </a>
+        </p>
+      ),
+      date: "May 2015 - Oct 2019",
+      link: "",
+      description: [
+        <p>
+          Developed various websites from scratch with Adobe DX designs using React, CI, HTML, CSS, Javascript,
+jQuery and bootstrap.
+        </p>,
+        <p>
+          Lead frontend team of 5 developers from 2018.
+        </p>,
+        <p>
+          Take part in the development of node modules that is used for company.
+        </p>,
+      ],
+    },
+    {
+      name: (
+        <p>
           Blockchain Developer,{" "}
           <a
             className="border-b-2"
