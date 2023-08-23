@@ -283,15 +283,23 @@ function History() {
       link: "",
       description: [
         <p>
-          Developed various websites from scratch with Adobe DX designs using React, CI, HTML, CSS, Javascript,
-jQuery and bootstrap.
+          Implemented pixel perfect design with HTML5, CSS3, SASS, less and build 4+ web applications by using
+responsive UI elements via React concepts for smooth performance
         </p>,
         <p>
-          Lead frontend team of 5 developers from 2018.
+          Experienced in working with Redux architecture using complex Object-Oriented concepts in improving
+the performance of the websites.
         </p>,
         <p>
-          Take part in the development of node modules that is used for company.
+          Build highly responsive UI components using React and Redux, optimizing cross-browser compatibility
+across 12 major providers based on design.
         </p>,
+        <p>
+          Lead frontend team of 5 developers from 2018
+        </p>,
+        <p>
+         Took part in the development of node modules that is used for company
+        </p>
       ],
     },
     {
@@ -357,13 +365,20 @@ jQuery and bootstrap.
           standards for website.
         </p>,
         <p>
-          Applied ECMA Script 6 features to build JSX elements and functions in React components.
+          Created a Node.js notification server and frontend client that uses WebSockets to distribute
+notifications
         </p>,
         <p>
-          Used React Hooks and Context API for effective state management in 60% of React projects.
+          Applied ECMA Script 6 features to build JSX elements and functions in React components
         </p>,
         <p>
-          Focused on improving SEO, increased searching priority.
+          Used React Hooks and Context API for effective state management in 60% of React projects
+        </p>,
+        <p>
+          Wrote the standardized components with the Storybook and wrote the unit testing with Jest.
+        </p>,
+        <p>
+          Created the structure and web pages layout as per the user requirements with 100% client satisfaction.
         </p>,
       ],
     },
@@ -389,14 +404,23 @@ jQuery and bootstrap.
           puzzles, foundational meths, CS foundamentals and science foundations.
         </p>,
         <p>
+          Build serverless, microservice-architecture SaaS services using AWS API Gateway, AWS Lambda, AWS
+RDS, AWS Cognito, AWS Amplify, Python, Node, React, and Vue
+        </p>,
+        <p>
           Oversaw the database design and management while managing deployment and required workflows.
         </p>,
         <p>
-          Coding, Compiling, Unit testing, Integration, packaging and deployment of developed software.
+          Created pipelines for CI/CD for web development from scratch using GitHub Actions, AWS
+CloudFormation, AWS, SAM CLI, and AWS Amplify.
         </p>,
         <p>
           Collaborate to form firm view of quality metrics and expectations for the delivery, and work with these
           throughout the sprint.
+        </p>,
+        <p>
+          Integrated third-party APIs such as Stripe, PayPal, Twilio, Facebook, Twitter, LinkedIn, AWS SDK, Zoho
+API, Hubspot, SendGrid, MailGun, Mandrill, MailChimp, etc.
         </p>,
         <p>
           Work on POCs and cutting-edge features before they’re integrated into the product
