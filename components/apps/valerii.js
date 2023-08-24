@@ -483,7 +483,7 @@ function Education() {
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
             Taras Shevchenko University of Kyiv
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2016 - 2019, Computer Science</div>
+          <div className=" text-sm text-gray-400 mt-0.5"> Computer Science</div>
           <div className=" text-sm md:text-base">Bachelor of Computer Science</div>
           <div className=" text-sm md:text-base text:bold">GPA &nbsp;&nbsp;&nbsp; 3.7/4.0</div>
         </li>
