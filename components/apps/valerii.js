@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutValery extends Component {
+export class AboutValerii extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -66,7 +66,7 @@ export class AboutValery extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valery Olshevsky"
+            alt="Valerii Olshevsky"
             src="./themes/system/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
@@ -84,7 +84,7 @@ export class AboutValery extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valery Olshevsky"
+            alt="Valerii Olshevsky"
             src="./themes/system/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
@@ -102,7 +102,7 @@ export class AboutValery extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valery's education"
+            alt="Valerii's education"
             src="./themes/system/status/education.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
@@ -120,7 +120,7 @@ export class AboutValery extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valery' skills"
+            alt="Valerii' skills"
             src="./themes/system/status/skills.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
@@ -138,7 +138,7 @@ export class AboutValery extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valery' projects"
+            alt="Valerii' projects"
             src="./themes/system/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
@@ -200,10 +200,10 @@ export class AboutValery extends Component {
   }
 }
 
-export default AboutValery;
+export default AboutValerii;
 
-export const displayAboutValery = () => {
-  return <AboutValery />;
+export const displayAboutValerii = () => {
+  return <AboutValerii />;
 };
 
 function About() {
@@ -213,12 +213,12 @@ function About() {
         <img
           className="w-full rounded-full"
           src="./images/logos/me.png"
-          alt="Valery Olshevsky Logo"
+          alt="Valerii Olshevsky Logo"
         />
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Valery Olshevsky</span> ,
+          My name is <span className="font-bold">Valerii Olshevsky</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -533,56 +533,56 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
-              alt="Valery javascript"
+              alt="Valerii javascript"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Typescript-3178c6?style=flat&logo=typescript&logoColor=ffffff"
-              alt="Valery typescript"
+              alt="Valerii typescript"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Solidity-ffffff?style=flat&logo=solidity&logoColor=000000&labelColor=%000000"
-              alt="Valery solidity"
+              alt="Valerii solidity"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="Valery c++"
+              alt="Valerii c++"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="Valery python"
+              alt="Valerii python"
             />
             <img
               className="m-1"
               src="http://img.shields.io/badge/-Java-5676AB?style=flat&logo=Spring&logoColor=white"
-              alt="Valery Java"
+              alt="Valerii Java"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Rust-5676AB?style=flat&logo=Rust&logoColor=green"
-              alt="Valery Rust"
+              alt="Valerii Rust"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="Valery dart"
+              alt="Valerii dart"
             />
             <img
               src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="Valery SASS"
+              alt="Valerii SASS"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="Valery git"
+              alt="Valerii git"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
-              alt="Valery firebase"
+              alt="Valerii firebase"
               className="m-1"
             />
           </div>
@@ -592,97 +592,97 @@ function Skills() {
             <img
               className=" m-1"
               src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"
-              alt="Valery next"
+              alt="Valerii next"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
-              alt="Valery react"
+              alt="Valerii react"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Angular-dd0031?style=flat&logo=angular&logoColor=ffffff"
-              alt="Valery angular"
+              alt="Valerii angular"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Django-bb5523?style=flat&logo=django&logoColor=green"
-              alt="Valery django"
+              alt="Valerii django"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Spring-dd0031?style=flat&logo=spring&logoColor=ffffff"
-              alt="Valery JavaSpring"
+              alt="Valerii JavaSpring"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Dotnet-555555?style=flat&logo=dotnet&logoColor=22bb22"
-              alt="Valery dotnet"
+              alt="Valerii dotnet"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Golang-777722?style=flat&logo=go&logoColor=22bb22"
-              alt="Valery golang"
+              alt="Valerii golang"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Svelte-ff3e00?style=flat&logo=svelte&logoColor=ffffff"
-              alt="Valery svelte"
+              alt="Valerii svelte"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Remix-00ccbb?style=flat&logo=remix&logoColor=000000"
-              alt="Valery remix"
+              alt="Valerii remix"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Web3JS-f16822?style=flat&logo=Web3.js&logoColor=ffffff"
-              alt="Valery web3"
+              alt="Valerii web3"
             />
             <img
               className=" m-1"
               src="https://img.shields.io/badge/-Hardhat-c5d11700?style=flat&logo=ethereum&logoColor=ffffff"
-              alt="Valery hardhat"
+              alt="Valerii hardhat"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/React Native-61DAFB?style=flat&logo=react&logoColor=white"
-              alt="Valery react native"
+              alt="Valerii react native"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Ionic-3880ff?style=flat&logo=ionic&logoColor=white"
-              alt="Valery ionic framework"
+              alt="Valerii ionic framework"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="Valery flutter"
+              alt="Valerii flutter"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
-              alt="Valery tailwind css"
+              alt="Valerii tailwind css"
             />
             <img
               src="https://img.shields.io/badge/-NodeJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Valery node.js"
+              alt="Valerii node.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-ExpressJS-339933?style=flat&logo=Node.js&logoColor=ffffff"
-              alt="Valery express.js"
+              alt="Valerii express.js"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
-              alt="Valery jquery"
+              alt="Valerii jquery"
               className="m-1"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="Valery redux"
+              alt="Valerii redux"
             />
           </div>
         </div>
@@ -1001,7 +1001,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/resume.pdf"
-      title="Valery Olshevsky resume"
+      title="Valerii Olshevsky resume"
       frameBorder="0"
     ></iframe>
   );

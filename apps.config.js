@@ -6,18 +6,18 @@ import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
-import { displayAboutValery } from "./components/apps/valery";
+import { displayAboutValerii } from "./components/apps/valerii";
 import { displayTerminalCalc } from "./components/apps/calc";
 
 const apps = [
   {
-    id: "about-Valery",
-    title: "About Valery",
+    id: "about-Valerii",
+    title: "About Valerii",
     icon: "./images/logos/me.png",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
-    screen: displayAboutValery,
+    screen: displayAboutValerii,
   },
   {
     id: "chrome",
