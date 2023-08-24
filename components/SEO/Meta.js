@@ -38,7 +38,7 @@ export default function Meta() {
         itemProp="description"
         content="Valerii Olshevskyi's (smart92dev) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta itemProp="image" content="images/logos/ValeriiOlshevskyi.png" />
+      <meta itemProp="image" content="images/logos/me.png" />
       /* Twitter */
       <meta name="twitter:card" content="summary" />
       <meta
@@ -51,7 +51,7 @@ export default function Meta() {
       />
       <meta name="twitter:site" content="smart92dev" />
       <meta name="twitter:creator" content="smart92dev" />
-      <meta name="twitter:image:src" content="images/logos/ValeriiOlshevskyi.png" />
+      <meta name="twitter:image:src" content="images/logos/me.png" />
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
         name="og:title"
@@ -61,13 +61,13 @@ export default function Meta() {
         name="og:description"
         content="Valerii Olshevskyi's (smart92dev) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta name="og:image" content="images/logos/ValeriiOlshevskyi.png" />
+      <meta name="og:image" content="images/logos/me.png" />
       <meta name="og:url" content="http://smart92dev.github.io/" />
       <meta name="og:site_name" content="Valerii Olshevskyi Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />
-      <link rel="icon" href="images/logos/ValeriiOlshevskyi.png" />
-      <link rel="apple-touch-icon" href="images/logos/ValeriiOlshevskyi.png" />
+      <link rel="icon" href="images/logos/me.png" />
+      <link rel="apple-touch-icon" href="images/logos/me.png" />
       <link
         rel="preload"
         href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
