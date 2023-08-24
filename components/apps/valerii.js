@@ -66,7 +66,7 @@ export class AboutValerii extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valerii Olshevsky"
+            alt="Valerii Olshevskyi"
             src="./themes/system/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
@@ -84,7 +84,7 @@ export class AboutValerii extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="Valerii Olshevsky"
+            alt="Valerii Olshevskyi"
             src="./themes/system/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
@@ -213,12 +213,12 @@ function About() {
         <img
           className="w-full rounded-full"
           src="./images/logos/me.png"
-          alt="Valerii Olshevsky Logo"
+          alt="Valerii Olshevskyi Logo"
         />
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Valerii Olshevsky</span> ,
+          My name is <span className="font-bold">Valerii Olshevskyi</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -1001,7 +1001,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/resume.pdf"
-      title="Valerii Olshevsky resume"
+      title="Valerii Olshevskyi resume"
       frameBorder="0"
     ></iframe>
   );
