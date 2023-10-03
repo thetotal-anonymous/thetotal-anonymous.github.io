@@ -178,37 +178,3 @@ input[type="range"].ubuntu-slider::-webkit-slider-thumb {
     visibility: hidden;
   }
 }
-
-/* Context Menu */
-.context-menu-bg {
-  background-color: rgb(43, 43, 43);
-}
-
-.emoji-list > li {
-  padding-left: 10px;
-}
-
-.list-pc {
-  list-style: "✅";
-}
-.list-building {
-  list-style: "👨🏻‍💻";
-}
-.list-time {
-  list-style: "🎲";
-}
-.list-star {
-  list-style: "🌟";
-}
-.list-arrow {
-  list-style: "⇀";
-}
-.list-finger {
-  list-style: "👉";
-}
-.list-pin {
-  list-style: "📌";
-}
-.list-view {
-  list-style: "↗️";
-}
